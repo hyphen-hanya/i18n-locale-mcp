@@ -1,0 +1,17 @@
+{
+  "name": "i18n-locale-mcp",
+  "version": "1.0.0-lite",
+  "description": "Free zero-dependency MCP server for localization QA: locale rules, pseudo-localization, and deterministic i18n linting.",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "i18n-locale-mcp": "index.js" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/smoke.mjs",
+    "tools": "node index.js --list-tools"
+  },
+  "keywords": ["mcp", "i18n", "localization", "l10n", "pseudo-localization", "claude", "cursor", "ai-agent"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {}
+}
